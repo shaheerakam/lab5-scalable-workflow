@@ -1,0 +1,10 @@
+name: lab5-workflow
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - snakemake>=8
+  - pandas
+  - matplotlib
+  - graphviz

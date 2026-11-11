@@ -1,0 +1,61 @@
+sample_id	dob	sex	site	glucose_value	glucose_unit	glucose_mg_dl	glucose_flag	notes
+S0001	1962-07-09	F	Site B	145.9	mg/dL	145.9	ok	NA
+S0002	1974-12-16	M	Site C	146.1	mg/dL	146.1	ok	NA
+S0003	1953-11-24	F	Site B	84.2	mg/dL	84.2	ok	NA
+S0004	1957-02-27	F	Site B	120.0	mg/dL	120.0	ok	NA
+S0005	1997-12-02	M	Site B	138.3	mg/dL	138.3	ok	NA
+S0006	1968-12-05	F	Site C	159.9	mmol/L	NA	implausible_for_unit	NA
+S0007	1969-09-04	NA	Site A	206.0	mg/dL	206.0	ok	NA
+S0008	1999-08-20	F	Site C	229.3	mg/dL	229.3	ok	NA
+S0009	1995-07-19	M	Site C	185.0	mg/dL	185.0	ok	NA
+S0010	1951-10-01	F	Site C	215.2	mg/dL	215.2	ok	re-draw requested
+S0011	1961-07-09	M	Site A	165.0	mmol/L	NA	implausible_for_unit	NA
+S0012	1996-06-07	NA	Site A	110.4	mg/dL	110.4	ok	re-draw requested
+S0013	1952-10-26	F	Site B	112.8	mmol/L	NA	implausible_for_unit	NA
+S0014	1958-09-12	F	Site B	144.0	mg/dL	144.0	ok	NA
+S0015	1998-02-11	M	Site B	103.0	mmol/L	NA	implausible_for_unit	NA
+S0016	1958-05-15	NA	Site B	157.4	mg/dL	157.4	ok	NA
+S0017	2015-07-16	NA	Site A	123.4	mg/dL	123.4	ok	NA
+S0018	1957-03-10	F	Site B	82.2	mg/dL	82.2	ok	NA
+S0019	2000-09-16	M	Site A	190.6	mg/dL	190.6	ok	NA
+S0020	2000-07-05	F	Site B	108.4	mg/dL	108.4	ok	NA
+S0021	2004-11-16	M	Site C	88.6	mg/dL	88.6	ok	NA
+S0022	2006-11-25	NA	Site A	233.0	mg/dL	233.0	ok	NA
+S0023	1999-06-30	M	Site A	83.5	mg/dL	83.5	ok	NA
+S0024	1953-07-31	F	Site C	114.9	mg/dL	114.9	ok	NA
+S0025	1965-11-19	M	Site A	202.6	mg/dL	202.6	ok	NA
+S0026	1953-06-22	F	Site A	217.0	mmol/L	NA	implausible_for_unit	NA
+S0027	1956-03-24	F	Site C	161.7	mg/dL	161.7	ok	NA
+S0028	1988-12-26	F	Site B	179.1	mg/dL	179.1	ok	NA
+S0029	2009-08-04	F	Site C	222.6	mg/dL	222.6	ok	NA
+S0030	1984-01-06	M	Site B	168.6	mg/dL	168.6	ok	NA
+S0031	1995-11-11	M	Site C	85.3	mg/dL	85.3	ok	NA
+S0032	1992-08-17	NA	Site B	229.5	mg/dL	229.5	ok	NA
+S0033	2012-06-07	M	Site B	114.9	mg/dL	114.9	ok	NA
+S0034	1995-04-15	NA	Site A	203.9	mmol/L	NA	implausible_for_unit	NA
+S0035	1956-12-13	F	Site A	130.5	mg/dL	130.5	ok	NA
+S0036	1987-04-21	NA	Site C	145.6	mg/dL	145.6	ok	NA
+S0037	2015-11-28	NA	Site A	119.1	mmol/L	NA	implausible_for_unit	re-draw requested
+S0038	1997-12-02	NA	Site B	171.6	mg/dL	171.6	ok	NA
+S0039	1980-04-12	M	Site C	241.2	mmol/L	NA	implausible_for_unit	NA
+S0040	2008-06-21	M	Site A	105.9	mg/dL	105.9	ok	NA
+S0041	1965-01-20	M	Site A	89.5	mg/dL	89.5	ok	NA
+S0042	2006-04-10	F	Site C	209.0	mg/dL	209.0	trailing_asterisk	NA
+S0043	1951-02-19	NA	Site A	148.0	mg/dL	148.0	ok	NA
+S0044	1998-04-13	NA	Site B	218.6	mg/dL	218.6	ok	NA
+S0045	1984-01-01	M	Site B	223.2	mg/dL	223.2	ok	NA
+S0046	1967-02-21	F	Site C	143.2	mg/dL	143.2	ok	NA
+S0047	1977-06-21	NA	Site B	165.6	mmol/L	NA	implausible_for_unit	NA
+S0048	1978-04-23	M	Site A	108.9	mmol/L	NA	implausible_for_unit	NA
+S0049	1966-02-05	M	Site C	166.1	mg/dL	166.1	ok	re-draw requested
+S0050	2001-07-02	NA	Site B	149.3	mg/dL	149.3	ok	NA
+S0051	2011-08-02	M	Site A	216.0	mg/dL	216.0	ok	NA
+S0052	1989-09-20	NA	Site A	172.4	mg/dL	172.4	ok	NA
+S0053	1999-07-10	M	Site A	143.5	mmol/L	NA	implausible_for_unit	NA
+S0054	2006-01-28	NA	Site A	168.0	mg/dL	168.0	ok	NA
+S0055	2011-10-14	NA	Site A	160.1	mmol/L	NA	implausible_for_unit	NA
+S0056	2010-06-30	M	Site B	77.2	mg/dL	77.2	ok	NA
+S0057	1986-08-20	F	Site C	88.8	mg/dL	88.8	ok	NA
+S0058	1972-08-23	F	Site C	142.8	mg/dL	142.8	ok	NA
+S0059	1968-04-06	M	Site A	148.9	mmol/L	NA	implausible_for_unit	NA
+S0060	1970-02-27	NA	Site A	186.6	mg/dL	186.6	ok	NA

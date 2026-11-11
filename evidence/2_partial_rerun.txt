@@ -1,0 +1,84 @@
+Assuming unrestricted shared filesystem usage.
+
+SNAKEMAKE
+=========
+  Date: 2026-11-11 17:09:14
+  Workflow ID: abdc6aae-f690-4ca8-97e6-7eb47a6075d5
+  Platform: macOS-26.2-arm64-arm-64bit
+  Host: Shaheeras-MacBook-Air.local
+  User: shaheerakamin
+  Snakemake version: 9.24.0
+  Python version: 3.12.16 (main, Oct 26 2026, 11:31:43) [Clang 21.1.8 ]
+  Command: /Users/shaheerakamin/miniforge3/envs/lab5-workflow/bin/snakemake --cores 1
+  Snakefile: /Users/shaheerakamin/Documents/GitHub/lab5-scalable-workflow/Snakefile
+  Base directory: /Users/shaheerakamin/Documents/GitHub/lab5-scalable-workflow
+  Run directory: /Users/shaheerakamin/Documents/GitHub/lab5-scalable-workflow
+  Working directory: /Users/shaheerakamin/Documents/GitHub/lab5-scalable-workflow
+  Config file(s): []
+  Config MD5: 99914b932bd37a50b983c5e7c90ae93b
+
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count
+-----------------  -------
+clean_samples            1
+combine_summaries        1
+make_report              1
+all                      1
+total                    4
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Nov 11 17:09:14 2026]
+localrule clean_samples:
+    input: scripts/clean_samples.py, data/raw/messy_samples.csv
+    output: results/samples_clean.tsv
+    jobid: 2
+    reason: Updated input files: data/raw/messy_samples.csv
+    resources: tmpdir=/var/folders/x2/ck2ybysx03v2kt6gfjfj7glh0000gn/T
+[Wed Nov 11 17:09:15 2026]
+Finished jobid: 2 (Rule: clean_samples)
+1 of 4 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Nov 11 17:09:15 2026]
+localrule combine_summaries:
+    input: scripts/combine_summaries.py, results/samples_clean.tsv, results/patient_features.tsv
+    output: results/combined_summary.tsv
+    jobid: 4
+    reason: Input files updated by another job: results/samples_clean.tsv
+    resources: tmpdir=/var/folders/x2/ck2ybysx03v2kt6gfjfj7glh0000gn/T
+[Wed Nov 11 17:09:15 2026]
+Finished jobid: 4 (Rule: combine_summaries)
+2 of 4 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Nov 11 17:09:15 2026]
+localrule make_report:
+    input: scripts/make_report.py, results/samples_clean.tsv, results/patient_features.tsv, results/combined_summary.tsv
+    output: results/summary_report.md, results/summary_figure.png
+    jobid: 1
+    reason: Input files updated by another job: results/samples_clean.tsv, results/combined_summary.tsv
+    resources: tmpdir=/var/folders/x2/ck2ybysx03v2kt6gfjfj7glh0000gn/T
+[Wed Nov 11 17:09:16 2026]
+Finished jobid: 1 (Rule: make_report)
+3 of 4 steps (75%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Nov 11 17:09:16 2026]
+localrule all:
+    input: results/summary_report.md, results/summary_figure.png
+    jobid: 0
+    reason: Input files updated by another job: results/summary_report.md, results/summary_figure.png
+    resources: tmpdir=/var/folders/x2/ck2ybysx03v2kt6gfjfj7glh0000gn/T
+[Wed Nov 11 17:09:16 2026]
+Finished jobid: 0 (Rule: all)
+4 of 4 steps (100%) done
+Complete log(s): /Users/shaheerakamin/Documents/GitHub/lab5-scalable-workflow/.snakemake/log/2026-11-11T170914.753634.snakemake.log

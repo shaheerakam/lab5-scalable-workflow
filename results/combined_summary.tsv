@@ -1,0 +1,17 @@
+dataset	metric	value
+samples	n_records	60.0
+samples	n_missing_sex	18.0
+samples	n_glucose_usable	47.0
+samples	n_glucose_unit_mismatch	13.0
+samples	n_glucose_missing	0.0
+samples	median_glucose_mg_dl	148.0
+patients	n_records	566.0
+patients	n_missing_sex	52.0
+patients	n_missing_age	71.0
+patients	median_age_at_diagnosis	66.0
+patients	median_tmb	6.68
+patients	n_with_EGFR_mutation	69.0
+patients	n_with_KEAP1_mutation	102.0
+patients	n_with_KRAS_mutation	168.0
+patients	n_with_STK11_mutation	74.0
+patients	n_with_TP53_mutation	287.0
